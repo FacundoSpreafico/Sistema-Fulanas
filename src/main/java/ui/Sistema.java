@@ -986,8 +986,7 @@ public class Sistema extends JFrame {
 		btnAgregarArticulo.setBounds(31, 361, 50, 40);
 		panelNuevoArticulo.add(btnAgregarArticulo);
 		
-		
-		
+	
 		JTabbedPane Clientes = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPaneGeneral.addTab("Clientes", null, Clientes, null);
 
