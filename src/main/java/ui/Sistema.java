@@ -755,8 +755,7 @@ public class Sistema extends JFrame {
 		            panel.add(new JLabel("Descripción:"));
 		            panel.add(descripcionField);
 		            
-		            int result = JOptionPane.showConfirmDialog(null, panel, "Editar Artículo",
-		                    JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+		            int result = JOptionPane.showConfirmDialog(null, panel, "Editar Artículo",JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 		            
 		            if (result == JOptionPane.OK_OPTION) {
 		                try {
@@ -858,7 +857,7 @@ public class Sistema extends JFrame {
 		JButton btnEditarArticulo = new JButton("Editar articulo");
         settingEditarArticulo(btnEditarArticulo);
         panelBuscarArticulos.add(btnEditarArticulo);
-
+        
         tableArticulo = new JTable();
 		settingTableArticulo(tableArticulo,btnEditarArticulo,scrollPane_1);
 
